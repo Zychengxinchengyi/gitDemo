@@ -23,6 +23,6 @@ public class TestServlet extends HttpServlet {
         //通过容器获取test实例
         TestDao tt = (TestDao)appCon.getBean("test");
         tt.sayHello();
-        response.getWriter().println("test has done!?");
+        response.getWriter().println("test has done!11");
     }
 }
